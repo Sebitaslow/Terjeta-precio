@@ -1,0 +1,29 @@
+body{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center   ;
+  justify-content: center;
+  height: 100vh;
+  font-family: default;
+}
+.target {
+   background-color: rgb(186, 187, 102);
+    border-radius: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, alpha)0.1;
+    display: inline-block;
+    margin: 20px;
+    text-align: center;
+    padding: 20px;
+    transition: all 0.4s ease;
+}
+
+.target:hover {
+    background-color: rgb(210, 210, 140);
+    box-shadow: 0 8px 24px rgba(255, 238, 0, 0.18);
+    transform: scale(1.03);
+}
+img {
+    border-radius: 10px;
+   
+}
